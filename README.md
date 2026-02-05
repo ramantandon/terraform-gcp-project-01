@@ -1,5 +1,5 @@
 ## **Purpose**
-This repository contains basic terraform configurations for provisioning a new GCP project.
+*** This repository contains basic terraform configurations for provisioning a new GCP project. ***
 
 1: Create a git repo locally and clone it to GitHub using gh cli
     gh repo create <gcp-project-01> --private -c && cd <gcp-project-01>
@@ -56,9 +56,9 @@ I would suggest to include and commit these dot files, so we have uniformity in 
 6: Update project name, billing account id in variables.tf
   Verify other terraform configs main.tf, network.tf, versions.tf, providers.tf
 
-7. Git add, commit and push code to remote repository.
+7: Git add, commit, and push code to remote repository.
 
-7: Terraform Cloud Workflow Steps (creating workspace, Selecting VCS branch)
+8: Terraform Cloud Workflow Steps (creating workspace, Selecting VCS branch)
   - Login to [Terraform Cloud](https://app.terraform.io/)
   - Click New Workspace
   - Choose Version Control Workflow
@@ -73,7 +73,7 @@ I would suggest to include and commit these dot files, so we have uniformity in 
   - Note: You simply **CANNOT** copy/paste keys to Terraform's env. variable as there are newline characters added. 
     To remove newline characters, we can use vscode. Copy key in vscode, select the key, ctrl + shift + p, Join Lines => enter. Copy the resultant key and paste it in TFC.  
 
-6: Execute first plan/apply manually at console. Subsequent code changes will automatically trigger terraform plan.
+9: Execute first plan/apply manually at console. Subsequent code changes will automatically trigger terraform plan.
    You can go to Settings in Terraform console to auto apply, as required.
 
 ## Nice commands to know
