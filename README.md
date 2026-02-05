@@ -6,7 +6,7 @@
 
 2: Copy all files (*.tf, any *.tbd (to be deployed), except .terraform and .terraform.local.hcl) to the new folder. 
 
-3: Open vscode
+3: Open vscode.  
    Click on backend.tf and update terraform workspace name (yet to be created) and verify organization name.
    Backend is required for executing `terraform plan` locally for verifying code, syntax, and view plan output before committing and pushing code.
 
