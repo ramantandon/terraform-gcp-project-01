@@ -15,7 +15,7 @@ module "network" {
     {
       subnet_name           = "subnet-us-east4"
       subnet_region         = "us-east4"
-      subnet_ip             = "10.144.0.0/20"
+      subnet_ip             = "10.143.0.0/20"
       subnet_private_access = "true"
     }
   ]
