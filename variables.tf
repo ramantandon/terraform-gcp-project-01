@@ -1,6 +1,6 @@
 variable "project" {
   description = "Project Name"
-  default     = "gcp-project-03"
+  default     = "gcp-project-01"
 }
 
 variable "billing-account-id" {
