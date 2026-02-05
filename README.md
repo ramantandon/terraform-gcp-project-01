@@ -1,5 +1,5 @@
 ## **Purpose**
-*** This repository contains basic terraform configurations for provisioning a new GCP project. ***
+#### This repository contains basic terraform configurations for provisioning a new GCP project. ####
 
 1: Create a git repo locally and clone it to GitHub using gh cli
     gh repo create <gcp-project-01> --private -c && cd <gcp-project-01>
