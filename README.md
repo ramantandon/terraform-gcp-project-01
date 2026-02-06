@@ -2,7 +2,7 @@
 #### This repository contains basic terraform configurations for provisioning a new GCP project. ####
 
 1: Create a git repo locally and clone it to GitHub using gh cli
-    gh repo create <gcp-project-01> --private -c && cd <gcp-project-01>
+    gh repo create <gcp-project-01> --public -c && cd <gcp-project-01>
 
 2: Copy all files (*.tf, any *.tbd (to be deployed), except .terraform and .terraform.local.hcl) to the new folder. 
 
